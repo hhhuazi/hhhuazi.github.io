@@ -9,16 +9,14 @@
     <!-- Begin Jekyll SEO tag v2.8.0 -->
     <title>Speech Representation Disentangling with Adversarial Mutual Information Learning for One-shot Voice Conversion | Submitted to INTERSPEECH2022</title>
     <meta name="generator" content="Jekyll v3.9.2" />
-    <meta property="og:title" content="Speech Representation Disentangling with Adversarial Mutual Information Learning for One-shot Voice Conversion" />
+    <meta property="og:title" content="Automatic Speech Disentanglement for Voice Conversion using Rank Module and Speech Augmentation" />
     <meta property="og:locale" content="en_US" />
-    <meta name="description" content="Submitted to INTERSPEECH2022" />
-    <meta property="og:description" content="Submitted to INTERSPEECH2022" />
-    <link rel="canonical" href="https://im1eon.github.io/IS2022-SRDVC/" />
-    <meta property="og:url" content="https://im1eon.github.io/IS2022-SRDVC/" />
-    <meta property="og:site_name" content="Speech Representation Disentangling with Adversarial Mutual Information Learning for One-shot Voice Conversion" />
+    <meta name="description" content="Submitted to INTERSPEECH2023" />
+    <meta property="og:description" content="Submitted to INTERSPEECH2023" />
+    <meta property="og:site_name" content="Automatic Speech Disentanglement for Voice Conversion using Rank Module and Speech Augmentation" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
-    <meta property="twitter:title" content="Speech Representation Disentangling with Adversarial Mutual Information Learning for One-shot Voice Conversion" />
+    <meta property="twitter:title" content="Automatic Speech Disentanglement for Voice Conversion using Rank Module and Speech Augmentation" />
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -36,7 +34,7 @@
 <body>
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer">
+    <!-- <div id="header_wrap" class="outer">
         <header class="inner">
             <img id="lab_logo" src="/slate/assets/images/logo.svg" />
             <div>
@@ -49,7 +47,7 @@
 
 
         </header>
-    </div>
+    </div> -->
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
@@ -62,10 +60,11 @@
 -->
             <h1 id="abstract">Abstract</h1>
 
-            <p>One-shot voice conversion (VC) with only a single target speaker speech for reference has become a new research direction. Existing works generally disentangle timbre, while information about pitch, rhythm and content is still mixed together.
-                To perform one-shot VC effectively with further disentangling these speech components, we employ random resampling for pitch and content encoder and use the variational contrastive logratio upper bound of mutual information and gradient
-                reversal layer based adversarial mutual information learning to ensure the different parts of the latent space containing only the desired disentanglement during training. Experiments on the VCTK dataset show the model is a state-of-the-art
-                one-shot VC framework in terms of naturalness and intellgibility of converted speech. In addition, we can transfer style of one-shot VC on timbre, pitch and rhythm separately by speech representation disentanglement.</p>
+            <p>Voice Conversion (VC) converts the voice of a source speech to that of a target while maintaining the source’s content. Speech can be mainly decomposed into four components: content, timbre, rhythm and pitch. Unfortunately, most related works
+                only take into account content and timbre, which results in less natural speech. Some recent works are able to disentangle speech into several components, but they require laborious bottleneck tuning or various hand-crafted features, each
+                assumed to contain disentangled speech information. In this paper, we propose a VC model that can automatically disentangle speech into four components using only two augmentation functions, without the requirement of multiple hand-crafted
+                features or laborious bottleneck tuning. The proposed model is straightforward yet efficient, and the empirical results demonstrate that our model can achieve a better performance than the baseline, regarding disentanglement effectiveness
+                and speech naturalness.</p>
 
             <h2 id="different-representation-conversion">Different Representation Conversion</h2>
 
