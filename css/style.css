@@ -241,11 +241,11 @@
 }
 
 .highlight .nt {
-    color: #000080
+    color: #048b67
 }
 
 .highlight .vc {
-    color: #008080
+    color: #2cdbdb
 }
 
 .highlight .vg {
@@ -408,7 +408,7 @@ h5,
 h6 {
     margin: 10px 0;
     font-weight: 700;
-    color: #2875cd;
+    color: #0fa7a5;
     font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
     letter-spacing: -1px
 }
@@ -581,7 +581,7 @@ hr {
 }
 
 table {
-    border: 1px solid #2875cd;
+    border: 1px solid #0fa7a5;
     margin-bottom: 20px;
     text-align: left
 }
@@ -589,13 +589,13 @@ table {
 th {
     font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 10px;
-    background: #2875cd;
+    background: #0fa7a5;
     color: #fff
 }
 
 td {
     padding: 10px;
-    border: 1px solid #2875cd
+    border: 1px solid #0fa7a5
 }
 
 form {
@@ -635,7 +635,7 @@ form {
 }
 
 #header_wrap {
-    background: #0c488c
+    background: #0fa7a5
 }
 
 #header_wrap .inner {
@@ -704,7 +704,7 @@ form {
 }
 
 #footer_wrap {
-    background: #0c488c
+    background: #62d6ed
 }
 
 @media screen and (max-width: 992px) {
